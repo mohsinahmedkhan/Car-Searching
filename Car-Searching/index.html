@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src="images/logo.jpg" alt="">
+        </div>
+
+        <div class="main">
+            <select onchange="selectCompany()" id="company">
+                <option value="">Select Company</option>
+            </select>
+            <select id="model">
+                <option value="">Select Model</option>
+            </select>
+            <button onclick="searchBtn()">Search</button>
+        </div>
+
+        <div class="box" id="carImg">
+             
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
