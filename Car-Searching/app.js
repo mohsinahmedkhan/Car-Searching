@@ -155,7 +155,7 @@ var cars = {
     },
     Audi: {
         AudiA3: {
-          model: "Audi A3",
+          carName: "Audi A3",
           model: "2019",
           fuelType: "Diesel",
           engine: "2018L",
@@ -164,7 +164,7 @@ var cars = {
           image: "images/Audi A3.png"
         },
         AudiA4: {
-          model: "Audi A4",
+          carName: "Audi A4",
           model: "2018",
           fuelType: "Petrol",
           engine: "108L",
@@ -173,7 +173,7 @@ var cars = {
           image: "images/Audi A4.webp"
         },
         AudiQ5: {
-          model: "Audi Q5",
+          carName: "Audi Q5",
           model: "2021",
           fuelType: "Diesel",
           engine: "998L",
@@ -182,7 +182,7 @@ var cars = {
           image: "images/Audi Q5.webp"
         },
         AudiA6: {
-          model: "Audi A6",
+          carName: "Audi A6",
           model: "2020",
           fuelType: "Petrol",
           engine: "9.8L",
